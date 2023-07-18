@@ -1,9 +1,14 @@
 name: brew test-bot
+
 on:
   push:
     branches:
       - master
   pull_request:
+
+env:
+  GH_REPO: ${{ github.repository }}
+
 jobs:
   test-bot:
     strategy:

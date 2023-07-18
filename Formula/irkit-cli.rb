@@ -1,7 +1,7 @@
 class IrkitCli < Formula
-  desc "IRKit CLI"
+  desc "Command-line interface for IRKit"
   homepage "https://github.com/brymck/irkit-cli"
-  version "v0.0.1"
+  version "0.0.1"
 
   on_macos do
     if Hardware::CPU.intel?
